@@ -2,7 +2,7 @@
 layout: page
 title: About Bhakti
 section: THE PERSON BEHIND THE NOTES
-permalink: /about/
+permalink: /about.html
 description: Banking technology, solution architecture and a continuing exploration of responsible AI.
 ---
 I’m **Bhakti Pradhan**, a technology architect with around 20 years of experience across software engineering, technical leadership and solution architecture in banking and financial services.
