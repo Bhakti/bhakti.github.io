@@ -1,40 +1,74 @@
 ---
 layout: home
 title: Home
+description: "Practical thinking on AI, banking technology and enterprise architecture by Bhakti Pradhan."
 ---
 
-<section class="hero">
-  <p class="eyebrow">A personal knowledge journal by Bhakti Pradhan</p>
-  <h1>Think. <span>Architect.</span> Build.</h1>
-  <p class="hero-copy">Exploring the intersection of AI, enterprise architecture, banking and engineering — one practical knowledge drop at a time.</p>
-  <div class="hero-actions">
-    <a class="button button-primary" href="{{ '/blog/' | relative_url }}">Explore articles</a>
-    <a class="button button-secondary" href="{{ '/about/' | relative_url }}">About this space</a>
+<section class="hero hero-updated">
+  <div class="hero-copy-column">
+    <p class="eyebrow"><span class="status-dot"></span> AN ARCHITECT'S LEARNING JOURNAL</p>
+    <h1>Designing systems<br>that <span>earn trust.</span></h1>
+    <p class="hero-intro">I’m Bhakti — a banking and financial services technology architect exploring how thoughtful engineering and responsible AI can shape the next generation of enterprise systems.</p>
+    <div class="hero-actions">
+      <a class="button button-primary" href="{{ '/blog/' | relative_url }}">Explore knowledge drops <span>↗</span></a>
+      <a class="button button-secondary" href="{{ '/about/' | relative_url }}">About me</a>
+    </div>
+    <div class="hero-proof"><span>20 years</span> across technology and financial services <b>·</b> <span>AI &amp; enterprise architecture</span></div>
   </div>
-  <div class="hero-meta"><span>AI &amp; Agentic Systems</span><i></i><span>Banking Architecture</span><i></i><span>System Design</span></div>
+  <div class="hero-visual" aria-label="Abstract network of connected architecture nodes">
+    <div class="visual-orbit orbit-one"></div><div class="visual-orbit orbit-two"></div>
+    <div class="visual-core"><span>ARCH</span><strong>AI</strong><small>BY DESIGN</small></div>
+    <span class="node node-a">TRUST</span><span class="node node-b">DATA</span><span class="node node-c">SYSTEMS</span><span class="node node-d">PEOPLE</span>
+    <span class="visual-line line-a"></span><span class="visual-line line-b"></span><span class="visual-line line-c"></span><span class="visual-line line-d"></span>
+  </div>
+</section>
+
+<section class="cred-strip">
+  <div><span class="cred-label">PERSPECTIVE</span><strong>Banking &amp; financial services</strong></div>
+  <div><span class="cred-label">CRAFT</span><strong>Solution &amp; enterprise architecture</strong></div>
+  <div><span class="cred-label">EXPLORING</span><strong>Agentic AI &amp; intelligent systems</strong></div>
 </section>
 
 <section class="section">
   <div class="section-heading">
-    <div><p class="eyebrow">Explore by theme</p><h2>Knowledge domains</h2></div>
+    <div><p class="eyebrow">THE KNOWLEDGE MAP</p><h2>What you'll find here</h2><p class="section-lede">A practical intersection of architecture experience, structured learning and hands-on exploration.</p></div>
   </div>
-  <div class="topic-grid">
-    <a class="topic-card" href="{{ '/categories/ai/' | relative_url }}"><span class="topic-number">01</span><h3>AI &amp; Agentic AI</h3><p>LLMs, RAG, agents, MCP, evaluation and responsible AI.</p><span class="topic-arrow">↗</span></a>
-    <a class="topic-card" href="{{ '/categories/banking/' | relative_url }}"><span class="topic-number">02</span><h3>Banking Architecture</h3><p>Digital journeys, onboarding, integration and controls.</p><span class="topic-arrow">↗</span></a>
-    <a class="topic-card" href="{{ '/categories/system-design/' | relative_url }}"><span class="topic-number">03</span><h3>System Design</h3><p>Distributed systems, scalability and architectural trade-offs.</p><span class="topic-arrow">↗</span></a>
-    <a class="topic-card" href="{{ '/categories/enterprise/' | relative_url }}"><span class="topic-number">04</span><h3>Enterprise Architecture</h3><p>Modernisation, APIs, security, resilience and governance.</p><span class="topic-arrow">↗</span></a>
+  <div class="topic-grid topic-grid-updated">
+    <a class="topic-card" href="{{ '/categories/ai/' | relative_url }}"><span class="topic-number">01 / INTELLIGENCE</span><h3>AI &amp; Agentic Systems</h3><p>RAG, LLM applications, agents, MCP, evaluation and responsible AI.</p><span class="topic-arrow">↗</span></a>
+    <a class="topic-card" href="{{ '/categories/banking/' | relative_url }}"><span class="topic-number">02 / DOMAIN</span><h3>Banking Architecture</h3><p>Digital journeys, customer onboarding, APIs, integration and controls.</p><span class="topic-arrow">↗</span></a>
+    <a class="topic-card" href="{{ '/categories/system-design/' | relative_url }}"><span class="topic-number">03 / ENGINEERING</span><h3>System Design</h3><p>Distributed systems, resilience, scalability and design trade-offs.</p><span class="topic-arrow">↗</span></a>
+    <a class="topic-card" href="{{ '/categories/enterprise/' | relative_url }}"><span class="topic-number">04 / ARCHITECTURE</span><h3>Enterprise Technology</h3><p>Modernisation, security, governance and architecture decision-making.</p><span class="topic-arrow">↗</span></a>
   </div>
 </section>
 
+<section class="section featured-section">
+  <div class="section-heading"><div><p class="eyebrow">START HERE</p><h2>Featured knowledge drop</h2></div><a class="text-link" href="{{ '/blog/' | relative_url }}">View all articles →</a></div>
+  {% assign featured = site.posts.first %}
+  {% if featured %}
+  <a class="featured-card" href="{{ featured.url | relative_url }}">
+    <div class="featured-index">FEATURED / 001</div>
+    <div class="featured-content"><p class="post-category">{{ featured.categories | join: " · " }}</p><h3>{{ featured.title }}</h3><p>{{ featured.description | default: featured.excerpt | strip_html | truncate: 190 }}</p><span class="featured-link">Read the article <b>↗</b></span></div>
+    <div class="featured-art"><div class="stack stack-back"></div><div class="stack stack-mid"></div><div class="stack stack-front"><span>RETRIEVE</span><b>+</b><span>GENERATE</span></div><div class="art-caption">GROUNDED GENERATION</div></div>
+  </a>
+  {% endif %}
+</section>
+
 <section class="section latest-section">
-  <div class="section-heading"><div><p class="eyebrow">The latest thinking</p><h2>Recent knowledge drops</h2></div><a class="text-link" href="{{ '/blog/' | relative_url }}">All articles →</a></div>
+  <div class="section-heading"><div><p class="eyebrow">KEEP EXPLORING</p><h2>Recent knowledge drops</h2></div></div>
   <div class="post-list">
-    {% for post in site.posts limit:4 %}
+    {% for post in site.posts limit:5 %}
     <article class="post-row">
       <div class="post-date">{{ post.date | date: "%d %b %Y" }}</div>
-      <div class="post-summary"><p class="post-category">{{ post.categories | first | default: "Notes" }}</p><h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3><p>{{ post.excerpt | strip_html | truncate: 155 }}</p></div>
+      <div class="post-summary"><p class="post-category">{{ post.categories | join: " · " }}</p><h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3><p>{{ post.description | default: post.excerpt | strip_html | truncate: 150 }}</p></div>
       <a class="row-arrow" href="{{ post.url | relative_url }}" aria-label="Read {{ post.title }}">↗</a>
     </article>
     {% endfor %}
   </div>
+</section>
+
+<section class="closing-cta">
+  <p class="eyebrow">IDEAS ARE BETTER WHEN SHARED</p>
+  <h2>Curious by nature.<br><span>Architecting with intent.</span></h2>
+  <p>This is a living notebook of ideas, experiments and practical architecture patterns. Learn alongside me.</p>
+  <a class="button button-primary" href="{{ '/about/' | relative_url }}">More about this space ↗</a>
 </section>

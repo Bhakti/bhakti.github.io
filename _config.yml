@@ -1,17 +1,13 @@
 title: "Drop of Knowledge"
 name: "Drop of Knowledge"
-description: "Architecture. Intelligence. Engineering. Practical notes on AI, banking and enterprise technology."
+description: "Architecture, AI and banking technology — practical notes by Bhakti Pradhan."
 url: "https://bhakti.github.io"
 baseurl: ""
 author:
   name: "Bhakti Pradhan"
-  bio: "Solution Architect exploring AI, enterprise architecture and banking technology."
+  bio: "Banking & Financial Services Solution Architect | Enterprise Architecture | AI Systems"
   location: "India"
-  links:
-    - label: "GitHub"
-      url: "https://github.com/bhakti"
-    - label: "LinkedIn"
-      url: "https://www.linkedin.com/"
+  github: "https://github.com/bhakti"
 markdown: kramdown
 permalink: /:categories/:year/:month/:day/:title/
 timezone: Asia/Kolkata
