@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" role="img" aria-labelledby="title desc">
+<title id="title">A drop of knowledge creating a wave of AI innovation</title>
+<desc id="desc">A luminous water droplet above concentric ripples, with a flowing blue and green digital network wave and connected data nodes.</desc>
+<defs>
+ <linearGradient id="drop" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e9ffff"/><stop offset=".28" stop-color="#29b9ed"/><stop offset=".66" stop-color="#0877bb"/><stop offset="1" stop-color="#10a875"/></linearGradient>
+ <linearGradient id="wave" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#20c7d9" stop-opacity=".1"/><stop offset=".45" stop-color="#087ec5" stop-opacity=".9"/><stop offset="1" stop-color="#13ad78" stop-opacity=".8"/></linearGradient>
+ <linearGradient id="ripple" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#21b9df" stop-opacity=".12"/><stop offset=".5" stop-color="#087eb8"/><stop offset="1" stop-color="#16ad87" stop-opacity=".3"/></linearGradient>
+ <radialGradient id="glow"><stop stop-color="#8ef7ed" stop-opacity=".55"/><stop offset="1" stop-color="#8ef7ed" stop-opacity="0"/></radialGradient>
+ <filter id="blur"><feGaussianBlur stdDeviation="14"/></filter>
+ <filter id="shine"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<ellipse cx="475" cy="390" rx="370" ry="110" fill="url(#glow)" filter="url(#blur)"/>
+<!-- flowing intelligence wave -->
+<g fill="none" stroke="url(#wave)" stroke-width="2.4" opacity=".88">
+ <path d="M0 300 C150 205 240 270 355 210 S570 80 900 125"/>
+ <path d="M0 330 C155 230 250 295 370 235 S610 110 900 155" opacity=".72"/>
+ <path d="M0 360 C160 260 265 320 385 260 S620 140 900 185" opacity=".55"/>
+ <path d="M0 270 C145 175 230 235 345 175 S570 50 900 95" opacity=".48"/>
+ <path d="M40 390 C185 290 285 350 405 290 S650 175 900 220" opacity=".35"/>
+</g>
+<g stroke="#42d9df" stroke-width="1.2" opacity=".55" fill="none">
+ <path d="M70 270 L165 218 L260 250 L355 176 L460 194 L560 122 L670 145 L785 76 L875 105"/>
+ <path d="M165 218 L185 310 L290 300 L355 176 M460 194 L485 275 L590 240 L670 145 M670 145 L700 245 L810 205 L875 105"/>
+</g>
+<g fill="#75f5ef" filter="url(#shine)">
+ <circle cx="70" cy="270" r="4"/><circle cx="165" cy="218" r="5"/><circle cx="260" cy="250" r="4"/><circle cx="355" cy="176" r="5"/><circle cx="460" cy="194" r="4"/><circle cx="560" cy="122" r="5"/><circle cx="670" cy="145" r="5"/><circle cx="785" cy="76" r="5"/><circle cx="875" cy="105" r="4"/><circle cx="185" cy="310" r="3"/><circle cx="290" cy="300" r="3"/><circle cx="485" cy="275" r="3"/><circle cx="590" cy="240" r="3"/><circle cx="700" cy="245" r="3"/><circle cx="810" cy="205" r="3"/>
+</g>
+<!-- droplet -->
+<path d="M455 70 C455 70 365 190 365 250 C365 307 405 350 455 350 C505 350 545 307 545 250 C545 190 455 70 455 70Z" fill="url(#drop)" stroke="#e4ffff" stroke-width="4" filter="url(#shine)"/>
+<path d="M421 190 C402 220 394 244 402 267" fill="none" stroke="#fff" stroke-width="9" stroke-linecap="round" opacity=".68"/>
+<path d="M455 105 C455 105 414 165 401 202" fill="none" stroke="#d8ffff" stroke-width="3" opacity=".7"/>
+<ellipse cx="455" cy="345" rx="26" ry="8" fill="#0b8dbb" opacity=".4"/>
+<!-- ripples -->
+<g fill="none" stroke="url(#ripple)" filter="url(#shine)">
+ <ellipse cx="455" cy="390" rx="105" ry="20" stroke-width="5"/>
+ <ellipse cx="455" cy="390" rx="175" ry="34" stroke-width="4" opacity=".85"/>
+ <ellipse cx="455" cy="390" rx="260" ry="50" stroke-width="3" opacity=".7"/>
+ <ellipse cx="455" cy="390" rx="350" ry="68" stroke-width="2.5" opacity=".5"/>
+ <ellipse cx="455" cy="390" rx="425" ry="85" stroke-width="2" opacity=".35"/>
+</g>
+<!-- digital particles and subtle binary motif -->
+<g fill="#087eb8" font-family="monospace" font-size="13" opacity=".42">
+ <text x="650" y="295">0101  1010</text><text x="710" y="320">101  001</text><text x="75" y="185">AI • DATA • TRUST</text>
+</g>
+<g fill="#13a879" opacity=".65"><circle cx="120" cy="340" r="3"/><circle cx="745" cy="390" r="3"/><circle cx="825" cy="270" r="3"/><circle cx="250" cy="150" r="2.5"/></g>
+</svg>
