@@ -12,4 +12,6 @@ A significant part of my role is translating business objectives into implementa
 
 My technical foundation is in Java and enterprise application architecture, and I am extending that experience into cloud-native and agentic AI architecture.
 
-I am now looking for a Principal Solution Architect | Principal AI Solution Architect role where I can bring my banking domain experience, end-to-end architecture ownership and governance capabilities to broader and more strategic technology challenges.
+I bring my banking domain experience, end-to-end architecture ownership and governance capabilities to broader and more strategic technology challenges.
+
+Sharing Drop of Knowledge...
