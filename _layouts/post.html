@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<article class="article-shell">
+  <a class="back-link" href="{{ '/blog/' | relative_url }}">← All articles</a>
+  <header class="article-header">
+    <p class="eyebrow">{{ page.categories | join: " / " }}</p>
+    <h1>{{ page.title }}</h1>
+    <p class="article-deck">{{ page.description }}</p>
+    <div class="article-byline">By {{ site.author.name }} <span>·</span> {{ page.date | date: "%d %B %Y" }} <span>·</span> {{ page.reading_time | default: "8 min read" }}</div>
+  </header>
+  <div class="prose article-content">{{ content }}</div>
+  <div class="article-end"><span>—</span><p>One more drop of knowledge. Keep questioning, keep building.</p></div>
+</article>

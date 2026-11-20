@@ -1,13 +1,19 @@
-# About Me.
+---
+layout: page
+title: About this space
+section: THE THINKING BEHIND THE NOTES
+permalink: /about/
+description: A learning journal about architecture, intelligence and engineering.
+---
+**Drop of Knowledge** is a personal technical knowledge hub by Bhakti Pradhan.
 
-I am a Solution Architect with around 20 years of experience in enterprise software engineering and architecture, with a strong focus on digital banking, customer onboarding and account opening.
+This space documents learning, experiments and architectural thinking across:
 
-In my current Barclays role as VP Lead Solution Architect, I have been responsible for the end-to-end architecture and target-state evolution of customer onboarding journeys. My work spans business capability alignment, solution design, API and microservices integration, reusable journey capabilities, architecture governance, security and delivery enablement.
+- **AI and agentic systems** — RAG, LLM applications, agents, MCP, evaluation and responsible AI.
+- **Banking technology** — digital banking, customer journeys, onboarding, APIs and enterprise integration.
+- **System design** — distributed systems, scalability, resilience and design trade-offs.
+- **Enterprise architecture** — modernisation, security, governance and technology strategy.
 
-I have worked across complex journeys involving multiple micro-frontends, domain services, external integrations and downstream banking systems. I focus on balancing customer experience, business agility, regulatory requirements, operational resilience and long-term architectural sustainability.
+The aim is simple: make complex technology easier to understand through clear explanations, practical examples, diagrams and code.
 
-A significant part of my role is translating business objectives into implementable architecture, evaluating trade-offs, producing and reviewing architecture artefacts, and working with engineering, product, security and other stakeholders to move solutions towards delivery.
-
-My technical foundation is in Java and enterprise application architecture, and I am extending that experience into cloud-native and agentic AI architecture.
-
-I bring my banking domain experience, end-to-end architecture ownership and governance capabilities to broader and more strategic technology challenges.
+*These articles represent personal learning and perspectives. They do not disclose confidential information from any employer, client or project.*

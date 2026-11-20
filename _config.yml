@@ -1,3 +1,26 @@
-theme: jekyll-theme-minimal
-title: Drop of Knowledge
-description: Bookmark this to keep an eye on drop added.....
+title: "Drop of Knowledge"
+name: "Drop of Knowledge"
+description: "Architecture. Intelligence. Engineering. Practical notes on AI, banking and enterprise technology."
+url: "https://bhakti.github.io"
+baseurl: ""
+author:
+  name: "Bhakti Pradhan"
+  bio: "Solution Architect exploring AI, enterprise architecture and banking technology."
+  location: "India"
+  links:
+    - label: "GitHub"
+      url: "https://github.com/bhakti"
+    - label: "LinkedIn"
+      url: "https://www.linkedin.com/"
+markdown: kramdown
+permalink: /:categories/:year/:month/:day/:title/
+timezone: Asia/Kolkata
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - .github

@@ -1,0 +1,9 @@
+---
+layout: default
+---
+<div class="page-shell">
+  <p class="eyebrow">DROP OF KNOWLEDGE / {{ page.section | default: "NOTES" }}</p>
+  <h1 class="page-title">{{ page.title }}</h1>
+  {% if page.description %}<p class="page-lede">{{ page.description }}</p>{% endif %}
+  <div class="prose">{{ content }}</div>
+</div>
